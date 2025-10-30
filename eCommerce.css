@@ -10,28 +10,13 @@
 #overlay.active {
     opacity: 1; pointer-events: auto;
 }
-.loader-wrap {
-    position: absolute; inset: 0;
-    display: flex; align-items: center;
-    justify-content: center;
-    background: rgba(255,255,255,0.9);
-    z-index: 2000;
-    transition: opacity .25s ease;
-}
-.loader-wrap.hidden { opacity: 0; pointer-events: none; transform: scale(.98); }
-.logo-spin {
-    width: 84px; height: 84px;
-    border-radius: 14px;
-    display: flex; align-items: center; justify-content: center;
-    font-weight: 700; color: var(--accent);
-    background: linear-gradient(180deg, #fff, #ffeedd);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-    animation: spin 1s linear infinite;
-}
-@keyframes spin {
-    to {
-        transform: rotate(360deg);
-    }
+#overlay .close-btn {
+    position: absolute;
+    top: 10px; right: 15px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
 }
 .image-gallery {
     display: flex;
@@ -82,12 +67,12 @@
     flex: 0 0 auto;
     float: right;
 }
-.dragging { transition: none !important; will-change: transform; }
+/* .dragging { transition: none !important; will-change: transform; }
 .safe-top {height: env(safe-area-inset-top, 10px); }
 .image-gallery::-webkit-scrollbar-thumb {
     background: #ddd;
     border-radius: 10px;
-}
+} */
 .badge {
     background-color: rgb(214, 140, 2, 0.2);
 }
