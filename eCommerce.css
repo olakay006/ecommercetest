@@ -1,0 +1,97 @@
+.container-fluid { padding: 20px; }
+.product-card { cursor: pointer; max-width: 720px; margin: 0 auto; }
+#overlay {
+    position: fixed; inset: 0;
+    background: #fff;
+    display: flex; flex-direction: column;
+    opacity: 0; pointer-events: none;
+    z-index: 9999; transition: opacity .25s ease;
+}
+#overlay.active {
+    opacity: 1; pointer-events: auto;
+}
+.loader-wrap {
+    position: absolute; inset: 0;
+    display: flex; align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.9);
+    z-index: 2000;
+    transition: opacity .25s ease;
+}
+.loader-wrap.hidden { opacity: 0; pointer-events: none; transform: scale(.98); }
+.logo-spin {
+    width: 84px; height: 84px;
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; color: var(--accent);
+    background: linear-gradient(180deg, #fff, #ffeedd);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.image-gallery {
+    display: flex;
+    overflow-x: auto;
+    background: var(--light-bg);
+    padding: 18px;
+    scroll-snap-type: x mandatory;
+    gap: 12px;
+    align-items: center;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+.image-gallery img {
+    height: 260px;
+    border-radius: 12px;
+    scroll-snap-align: center;
+    object-fit: contain;
+    box-shadow: 0 6px 18px rgba(0,0,0,.06);
+    flex: 0 0 auto;
+}
+.overlay-content {
+    flex: 1;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 18px 18px 120px;
+    transform: translateY(0);
+    transition: transform .18s ease;
+}
+.cart-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f8bc6e;
+    border-top: 2px solid #df4848;
+    padding: 12px 16px; display: flex;
+    gap: 12px;
+    align-items: center;
+    z-index: 2500;
+}
+.cart-btn{
+    background: rgba(231, 133, 3, 0.9);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: 700;
+    box-shadow: 0 6px 18px rgba(225,153,0,.12);
+    flex: 0 0 auto;
+    float: right;
+}
+.dragging { transition: none !important; will-change: transform; }
+.safe-top {height: env(safe-area-inset-top, 10px); }
+.image-gallery::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 10px;
+}
+.badge {
+    background-color: rgb(214, 140, 2, 0.2);
+}
+#overlay.active #loader:not(.hidden) {
+    opacity: 1;
+    pointer-events: auto;
+}
