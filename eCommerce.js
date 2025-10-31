@@ -1,18 +1,21 @@
-const overlay = document.getElementById('overlay');
-const closeBtn = document.querySelector('.close-btn');
-const productCard = document.querySelector('.product-card');
-productCard.addEventListener('click', () => {
-    overlay.classList.add('active');
-    document.body.style.overflow = 'hidden';
-});
-closeBtn.addEventListener('click', () => {
-    overlay.classList.remove('active');
-    document.body.style.overflow = 'auto';
-});
-document.getElementById('addToCart').addEventListener('click', () => {
-    alert('☑ HP EliteBook added to cart!')
-});
+// const overlay = document.getElementById('overlay');
+// const closeBtn = document.querySelector('.close-btn');
+// const productCard = document.querySelector('.product-card');
+// productCard.addEventListener('click', () => {
+//     overlay.classList.add('active');
+//     document.body.style.overflow = 'hidden';
+// });
+// closeBtn.addEventListener('click', () => {
+//     overlay.classList.remove('active');
+//     document.body.style.overflow = 'auto';
+// });
+// document.getElementById('addToCart').addEventListener('click', () => {
+//     alert('☑ HP EliteBook added to cart!')
+// });
 
+
+
+// DID'NT WORK//
 // (function(){
 //     const overlay = document.getElementById('overlay');
 //     const loader = document.getElementById('loader');
@@ -137,3 +140,62 @@ document.getElementById('addToCart').addEventListener('click', () => {
 
 //     overlay.classList.remove('active');
 // })();
+
+
+// const products = [
+//     {
+//         id: 1,
+//         name: "NIVEA Radiant & Beauty Even Glow Body Lotion for women - 400ml (Pack Of 2)",
+//         brand: "NIVEA",
+//         price: "₦9,365",
+//         Images: [
+//             "comHPCard-1.jpg",
+//             "comHPCard-2.jpg",
+//             "comHPCard-3.jpg"
+//         ],
+//         description1: "This NIVEA body lotion is specially formulated toenhance skin tone and radiance with pearl extract and vitamin C",
+//         description2: "It moisturizes deeply, giving you visibly glowing, even-toned, and smoother skin everyday."
+//     },
+//     {
+//         id: 2,
+//         name: "ADIDAS WideWalk Sneakers",
+//         brand: "ADIDAS",
+//         price: "₦36,625",
+//         Images: [
+//             "comHPCard.jpg",
+//             "comHPCard-4.jpg",
+//             "comHPCard-5.jpg"
+//         ],
+//         description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+//         description2: "Lightweight, durable, and built with superior grip for both style and function."
+//     }
+// ];
+
+const products = [
+  {
+    id: 1,
+    name: "NIVEA Radiant & Beauty Even Glow Body Lotion For Women - 400ml (Pack Of 2)",
+    brand: "NIVEA",
+    price: "₦9,365",
+    images: [
+      "comHPCard-1.jpg",
+      "comHPCard-2.jpg",
+      "comHPCard-3.jpg"
+    ],
+    description1: "This NIVEA body lotion is specially formulated to enhance skin tone and radiance with pearl extract and vitamin C.",
+    description2: "It moisturizes deeply, giving you visibly glowing, even-toned, and smoother skin every day."
+  },
+  {
+    id: 2,
+    name: "ADIDAS WideWalk Sneakers",
+    brand: "ADIDAS",
+    price: "₦36,625",
+    images: [
+      "comHPCard.jpg",
+      "comHPCard-4.jpg",
+      "comHPCard-5.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  }
+];
