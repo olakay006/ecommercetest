@@ -131,7 +131,7 @@ body {
 }
 
 #add-to-cart {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   left: 0;
   right: 0;
@@ -141,6 +141,8 @@ body {
   padding: 15px;
   font-size: 18px;
   font-weight: bold;
+  width: 50%;
+  float: right;
 }
 
 
@@ -216,7 +218,7 @@ body {
       background: linear-gradient(#2545f9,#ff9900)
     }
     #crslContainer{
-      background-color: #2545f9;
+      background-color: #fff;
     }
     .card {
       border: none;
@@ -236,4 +238,18 @@ body {
     .card-body p{
       margin-top: -20px;
       white-space: nowrap;
+    }
+
+    .promoSwiper {
+      width: 100%;
+      overflow: visible;
+    }
+    .swiper-slide {
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .swiper-slide img {
+      width: 100%;
+      display: block;
+      border-radius: 12px;
     }

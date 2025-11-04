@@ -183,7 +183,8 @@ const products = [
       "comHPCard-3.jpg"
     ],
     description1: "This NIVEA body lotion is specially formulated to enhance skin tone and radiance with pearl extract and vitamin C.",
-    description2: "It moisturizes deeply, giving you visibly glowing, even-toned, and smoother skin every day."
+    description2: "It moisturizes deeply, giving you visibly glowing, even-toned, and smoother skin every day.",
+    foot: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, neque error dolores natus quas perferendis voluptas, illum, expedita esse sit laudantium quo. Voluptatibus porro unde distinctio dolores consequuntur ut maxime nostrum sunt facere nam, tempore neque amet rem similique itaque?"
   },
   {
     id: 2,
@@ -199,3 +200,15 @@ const products = [
     description2: "Lightweight, durable, and built with superior grip for both style and function."
   }
 ];
+
+var swiper = new Swiper(".promoSwiper", {
+  slidesPerView: 1.1,
+  spaceBetween: 10,
+  centeredSlides: false,
+  loop: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  grabCursor: true,
+});
