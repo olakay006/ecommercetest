@@ -174,9 +174,9 @@
 const products = [
   {
     id: 1,
-    name: "NIVEA Radiant & Beauty Even Glow Body Lotion For Women - 400ml (Pack Of 2)",
-    brand: "NIVEA",
-    price: "₦9,365",
+    name: "HP Laptop EliteBook Intel",
+    brand: "HP",
+    price: "₦750,000",
     images: [
       "comHPCard-1.jpg",
       "comHPCard-2.jpg",
