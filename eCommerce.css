@@ -195,7 +195,7 @@ body {
     .nav-icon:hover {
       color: #2545f9;
     }
-    .offcanvas-start {
+    #desktopMenu{
       width: 75% !important;
       max-width: 400px;
     }
@@ -205,6 +205,10 @@ body {
       .nav-icon span {
         display: none;
       }
+    }
+    #mobileMenu{
+      width: 75% !important;
+      max-width: 400px;
     }
     #list-group{
       border: 2px solid #f9a825;

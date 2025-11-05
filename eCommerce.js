@@ -188,13 +188,39 @@ const products = [
   },
   {
     id: 2,
-    name: "ADIDAS WideWalk Sneakers",
-    brand: "ADIDAS",
-    price: "₦36,625",
+    name: "Apple Macbook Air 15 M3 Chip 8GB, 512GB Starlight",
+    brand: "Apple",
+    price: "₦2,899,000",
     images: [
-      "comHPCard.jpg",
-      "comHPCard-4.jpg",
-      "comHPCard-5.jpg"
+      "eCmrceAppleLaptop.jpg",
+      "eCmrceAppleLaptop.jpg",
+      "eCmrceAppleLaptop.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 3,
+    name: "Apple 11-Inch iPad Air Wi-Fi + Cellular 512GB - Space Grey - M2 Chip - 2025",
+    brand: "Apple",
+    price: "₦1,860,999",
+    images: [
+      "eCmrceIpad.jpg",
+      "eCmrceIpad.jpg",
+      "eCmrceIpad.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 4,
+    name: "Apple iPad Pro 11 M4 - Wi-Fi - 1TB ー Black - 2024",
+    brand: "Apple",
+    price: "₦2,899,999",
+    images: [
+      "eCmrceIpad11.jpg",
+      "eCmrceIpad11.jpg",
+      "eCmrceIpad11.jpg"
     ],
     description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
     description2: "Lightweight, durable, and built with superior grip for both style and function."
@@ -212,3 +238,19 @@ var swiper = new Swiper(".promoSwiper", {
   },
   grabCursor: true,
 });
+
+
+
+
+
+// id: 2,
+//     name: "ADIDAS WideWalk Sneakers",
+//     brand: "ADIDAS",
+//     price: "₦36,625",
+//     images: [
+//       "comHPCard.jpg",
+//       "comHPCard-4.jpg",
+//       "comHPCard-5.jpg"
+//     ],
+//     description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+//     description2: "Lightweight, durable, and built with superior grip for both style and function."
