@@ -193,8 +193,9 @@ const products = [
     price: "₦2,899,000",
     images: [
       "eCmrceAppleLaptop.jpg",
-      "eCmrceAppleLaptop.jpg",
-      "eCmrceAppleLaptop.jpg"
+      "eCmrceAppleLaptop1st.jpg",
+      "eCmrceAppleLaptop2nd.jpg",
+      "eCmrceAppleLaptop3rd.jpg"
     ],
     description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
     description2: "Lightweight, durable, and built with superior grip for both style and function."
@@ -205,8 +206,9 @@ const products = [
     brand: "Apple",
     price: "₦1,860,999",
     images: [
-      "eCmrceIpad.jpg",
-      "eCmrceIpad.jpg",
+      "eCmrceIpad3rd.jpg",
+      "eCmrceIpad1st.jpg",
+      "eCmrceIpad2nd.jpg",
       "eCmrceIpad.jpg"
     ],
     description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
@@ -219,19 +221,122 @@ const products = [
     price: "₦2,899,999",
     images: [
       "eCmrceIpad11.jpg",
-      "eCmrceIpad11.jpg",
-      "eCmrceIpad11.jpg"
+      "eCmrceIpad11-1st.jpg"
     ],
     description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
     description2: "Lightweight, durable, and built with superior grip for both style and function."
-  }
+  },
+  {
+    id: 5,
+    name: "Apple iPhone 15 Pro max, 256GB",
+    brand: "Apple",
+    price: "₦1,590,000",
+    images: [
+      "eCmrceIphone15pro.jpg",
+      "eCmrceIphone15pro1st.jpg",
+      "eCmrceIphone15pro2nd (1).jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 6,
+    name: "Power Pod ORIMO FREEPODS Bluetooth Earphones 5 3 Wireless Hearpod Ear Pod / Headphones 5 0 Hear Earpiece Cover Stereo Slide Earpods Airpods Earbududs Pod",
+    brand: "Power Pod",
+    price: "₦25,000",
+    images: [
+      "eCmrceOraimo earpod.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 7,
+    name: "Jbl |12 Super Bass High Quality Headphone",
+    brand: "Jbl",
+    price: "₦40,000",
+    images: [
+      "eCmrceJBLheadset.jpg",
+      "eCmrceJBLheadset2nd.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 8,
+    name: "Wireless Stereo Earphone Wireless Single Earbud Headphones Earpiece One Ear Earbods Bluetooth Earphones Earpods",
+    brand: "Wireless Stereo Earphone",
+    price: "₦5,550",
+    images: [
+      "eCmrceStereoEarpod.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 9,
+    name: "Air Max 2 - Wireless Over-Ear Noise Cancellation Headphones With Bluetooth 5.3, TF Card Slot, Built-in Mic, USB-C Charging, Comfortable Cushioned Ear Cups, Gaming Headphone - Compatible With Smartphones & Computers, Modern Headset",
+    brand: "Air Max",
+    price: "₦15,191",
+    images: [
+      "eCmrceHeadsets.jpg",
+      "eCmrceHeadsets1st.jpg",
+      "eCmrceHeadsets2nd.jpg",
+      "eCmrceHeadsets3rd.jpg",
+      "eCmrceHeadsets4th.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 10,
+    name: "Samsung Galaxy S22 Ultra 5G 256GB ROM 8GB RAM Single Sim - Black",
+    brand: "Samsung",
+    price: "₦900,000",
+    images: [
+      "eCmrceSamsungS23.jpg",
+      "eCmrceSamsungS22-2nd.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 11,
+    name: "Samsung Galaxy Z Fold 7 8.00' 12GB RAM/256GB ROM Android 16- Black+Free gift",
+    brand: "Samsung",
+    price: "₦2,700,000",
+    images: [
+      "eCmrceSamsung vfold.jpg",
+      "eCmrceSamsung vfold2nd.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 12,
+    name: "HP Laptop ProBook 640 G2 Core i5 6th Gen 8GB RAM 5.00GB HDD",
+    brand: "HP",
+    price: "₦250,000",
+    images: [
+      "eCmrceProbooklaptop.jpg",
+      "eCmrceProbooklaptop1st.jpg",
+      "eCmrceProbooklaptop2nd.jpg",
+      "eCmrceProbooklaptop3rd.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
 ];
 
-var swiper = new Swiper(".promoSwiper", {
+var swiper = new Swiper("#promoSwiper", {
   slidesPerView: 1.1,
   spaceBetween: 10,
   centeredSlides: false,
   loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,

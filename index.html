@@ -12,11 +12,11 @@
 </head>
 <body>
     <nav class="navbar sticky-top">
-    <div class="container-fluid d-flex flex-wrap align-items-center justify-content-between px-3">
+    <div class="container-fluid d-flex flex-wrap align-items-center justify-content-between px-3 sticky-top">
 
       <!-- Logo -->
-      <a class="navbar-brand fw-bold fs-4 me-3" href="#">
-        Olakay<span>Store</span>
+      <a class="navbar-brand fw-bold fs-4 me-3 mt-2" href="#">
+        Olakay<span>Store</span><img src="1000113088-removebg-preview.png" alt="" class="img-fluid ps-0" style="width: 50px;">
       </a>
 
       <!-- Icons (right side) -->
@@ -33,10 +33,10 @@
       </form>
 
     </div>
-  </nav>
+    </nav>
   <div class="d-md-none d-flex justify-content-between align-items-center p-2 border-bottom">
-  <button class="btn btn-outline-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
-    <i class="bi bi-list fs-4"></i> Categories
+  <button class="btn btn-outline-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" style="border: 1px solid blue; padding: 0px 5px 0px 5px;">
+    <i class="bi bi-list fs-4"><small><small>Categories</small></small></i>
   </button>
 </div>
 
@@ -82,8 +82,8 @@
     </div>
 
     <!-- Carousel / Main Content -->
-     <div class="col-lg-9 col-md-8 d-none d-md-block" id="categorySidebar">
-      <div class="swiper promoSwiper">
+    <div class="col-lg-9 col-md-8">
+    <div class="swiper mt-5" id="promoSwiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <img src="kayeCmrceCarousel-1.png" alt="">
@@ -95,9 +95,11 @@
                 <img src="kayeCmrceCarousel-3.png" alt="">
             </div>
         </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev" style="display: none;"></div>
+        <div class="swiper-button-next" style="display: none;"></div>
     </div>
     </div>
-    
 </div>
 </div>
 
@@ -110,124 +112,146 @@
                 <img src="comHPCard-1.jpg" alt="" class="card-img" style="height: 12rem;">
                 <div class="card-body">
                     <p class="text-center">HP Laptop EliteBook Intel</p>
-                    <p class="text-center h5">$700</p>
-                    <a href="eComrceProd.html?id=1" class="btn btn-primary w-100">Add to cart</a>
+                    <p class="text-center h5">₦750,000</p>
+                    <!-- <a href="eComrceProd.html?id=1" class="btn btn-primary w-100">Add to cart</a> -->
                 </div>
             </div>
             </a>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <a href="eComrceProd.html?id=2" style="text-decoration: none; color: rgb(27, 26, 26);">
             <div class="card mt-2">
                 <img src="eCmrceAppleLaptop.jpg" alt="" class="card-img" style="height: 12rem;">
                 <div class="card-body">
                     <p class="text-center">Apple Macbook Air 15" M3 Chip 8GB, 512GB Starlight</p>
-                    <p class="text-center h5">$700</p>
-                    <a href="#" class="btn btn-primary w-100">Add to cart</a>
+                    <p class="text-center h5">₦2,899,000</p>
+                    <!-- <a href="#" class="btn btn-primary w-100">Add to cart</a> -->
                 </div>
             </div>
+            </a>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <a href="eComrceProd.html?id=3" style="text-decoration: none; color: rgb(27, 26, 26);">
             <div class="card mt-2">
                 <img src="eCmrceIpad.jpg" alt="" class="card-img" style="height: 12rem;">
                 <div class="card-body">
                     <p class="text-center">Apple 11-Inch iPad Air Wi-Fi + Cellular 512GB - Space Grey - M2 Chip - 2025</p>
-                    <p class="text-center h5">$700</p>
-                    <a href="#" class="btn btn-primary w-100">Add to cart</a>
+                    <p class="text-center h5">₦1,860,999</p>
+                    <!-- <a href="#" class="btn btn-primary w-100">Add to cart</a> -->
                 </div>
             </div>
+            </a>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <a href="eComrceProd.html?id=4" style="text-decoration: none; color: rgb(27, 26, 26);">
             <div class="card mt-2">
                 <img src="eCmrceIpad11.jpg" alt="" class="card-img" style="height: 12rem;">
                 <div class="card-body">
                     <p class="text-center">Apple iPad Pro 11" M4 - Wi-Fi - 1TB ー Black - 2024</p>
-                    <p class="text-center h5">$700</p>
-                    <a href="#" class="btn btn-primary w-100">Add to cart</a>
+                    <p class="text-center h5">₦2,899,999</p>
+                    <!-- <a href="#" class="btn btn-primary w-100">Add to cart</a> -->
                 </div>
             </div>
+            </a>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <a href="eComrceProd.html?id=5" style="text-decoration: none; color: rgb(27, 26, 26);">
             <div class="card mt-2">
-                <img src="eCmrceIphone14pro.jpg" alt="" class="card-img" style="height: 12rem;">
+                <img src="eCmrceIphone15pro.jpg" alt="" class="card-img" style="height: 12rem;">
                 <div class="card-body">
-                    <p class="text-center">iPhone 14 Pro max 256GB</p>
-                    <p class="text-center h5">$700</p>
-                    <a href="#" class="btn btn-primary w-100">Add to cart</a>
+                    <p class="text-center">iPhone 15 Pro max 256GB</p>
+                    <p class="text-center h5">₦1,590,000</p>
+                    <!-- <a href="#" class="btn btn-primary w-100">Add to cart</a> -->
                 </div>
             </div>
+            </a>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <a href="eComrceProd.html?id=6" style="text-decoration: none; color: rgb(27, 26, 26);">
             <div class="card mt-2">
                 <img src="eCmrceOraimo earpod.jpg" alt="" class="card-img" style="height: 12rem;">
                 <div class="card-body">
                     <p class="text-center">Power Pod ORIMO FREEPODS Bluetooth Earphones 5 3 Wireless Hearpod Ear Pod.....</p>
-                    <p class="text-center h5">$700</p>
-                    <a href="#" class="btn btn-primary w-100">Add to cart</a>
+                    <p class="text-center h5">₦25,000</p>
+                    <!-- <a href="#" class="btn btn-primary w-100">Add to cart</a> -->
                 </div>
             </div>
         </div>
+        </a>
     </div>
     <div class="row">
         <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <a href="eComrceProd.html?id=7" style="text-decoration: none; color: rgb(27, 26, 26);">
             <div class="card mt-2">
                 <img src="eCmrceJBLheadset.jpg" alt="" class="card-img" style="height: 12rem;">
                 <div class="card-body">
                     <p class="text-center">Jbl |12 Super Bass High Quality Headphone</p>
-                    <p class="text-center h5">$700</p>
+                    <p class="text-center h5">₦40,000</p>
                     <a href="#" class="btn btn-primary w-100">Add to cart</a>
                 </div>
             </div>
+            </a>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <a href="eComrceProd.html?id=8" style="text-decoration: none; color: rgb(27, 26, 26);">
             <div class="card mt-2">
                 <img src="eCmrceStereoEarpod.jpg" alt="" class="card-img" style="height: 12rem;">
                 <div class="card-body">
-                    <p class="text-center">Wireless Stereo Earphone Wireless Single Earbud </p>
-                    <p class="text-center h5">$700</p>
+                    <p class="text-center">Wireless Stereo Earphone Wireless Single Earbud</p>
+                    <p class="text-center h5">₦5,550</p>
                     <a href="#" class="btn btn-primary w-100">Add to cart</a>
                 </div>
             </div>
+            </a>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <a href="eComrceProd.html?id=9" style="text-decoration: none; color: rgb(27, 26, 26);">
             <div class="card mt-2">
                 <img src="eCmrceHeadsets.jpg" alt="" class="card-img" style="height: 12rem;">
                 <div class="card-body">
                     <p class="text-center">Air Max 2 - Wireless Over-Ear Noise Cancellation Headphones</p>
-                    <p class="text-center h5">$700</p>
+                    <p class="text-center h5">₦15,191</p>
                     <a href="#" class="btn btn-primary w-100">Add to cart</a>
                 </div>
             </div>
+            </a>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <a href="eComrceProd.html?id=10" style="text-decoration: none; color: rgb(27, 26, 26);">
             <div class="card mt-2">
                 <img src="eCmrceSamsungS23.jpg" alt="" class="card-img" style="height: 12rem;">
                 <div class="card-body">
                     <p class="text-center">Samsung Galaxy S22 Ultra 5G 128GB ROM 8GB RAM Single Sim - Black</p>
-                    <p class="text-center h5">$700</p>
+                    <p class="text-center h5">₦900,000</p>
                     <a href="#" class="btn btn-primary w-100">Add to cart</a>
                 </div>
             </div>
+            </a>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <a href="eComrceProd.html?id=11" style="text-decoration: none; color: rgb(27, 26, 26);">
             <div class="card mt-2">
                 <img src="eCmrceSamsung vfold.jpg" alt="" class="card-img" style="height: 12rem;">
                 <div class="card-body">
                     <p class="text-center">Samsung Galaxy Z Fold 7 8.00" 12GB RAM/256GB ROM Android 16- Black+Free gift</p>
-                    <p class="text-center h5">$700</p>
+                    <p class="text-center h5">₦2,700,000</p>
                     <a href="#" class="btn btn-primary w-100">Add to cart</a>
                 </div>
             </div>
+            </a>
         </div>
         <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <a href="eComrceProd.html?id=12" style="text-decoration: none; color: rgb(27, 26, 26);">
             <div class="card mt-2">
                 <img src="eCmrceProbooklaptop.jpg" alt="" class="card-img" style="height: 12rem;">
                 <div class="card-body">
-                    <p class="text-center"><small>HP Laptop ProBook 640</small></p>
-                    <p class="text-center h5">$700</p>
+                    <p class="text-center">HP Laptop ProBook 640 G2 Core i5 6th Gen 8GB RAM 5.00GB HDD</p>
+                    <p class="text-center h5">₦250,000</p>
                     <a href="#" class="btn btn-primary w-100">Add to cart</a>
                 </div>
             </div>
         </div>
+        </a>
     </div>
     </div>
 
