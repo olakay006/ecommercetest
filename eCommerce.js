@@ -178,13 +178,13 @@ const products = [
     brand: "HP",
     price: "₦750,000",
     images: [
+      "comHPCard.jpg",
       "comHPCard-1.jpg",
       "comHPCard-2.jpg",
       "comHPCard-3.jpg"
     ],
-    description1: "This NIVEA body lotion is specially formulated to enhance skin tone and radiance with pearl extract and vitamin C.",
-    description2: "It moisturizes deeply, giving you visibly glowing, even-toned, and smoother skin every day.",
-    foot: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, neque error dolores natus quas perferendis voluptas, illum, expedita esse sit laudantium quo. Voluptatibus porro unde distinctio dolores consequuntur ut maxime nostrum sunt facere nam, tempore neque amet rem similique itaque?"
+    description1: "Designed for comfort ー Easy to carry from meeting to meeting, the ultrathin and light 14-inch diagonal the  EliteBook 840 G7 with an high-percent screen-to-body ratio. It also includes a new keyboard and clickpad that are quiet and comfortable to work on.",
+    description2: "Work with peace of mind Security features from  work together to create an always-on, always-acting, resilient defense. From the BIOS to the browser, above and below the OS, these constantly evolving solutions help protect your PC from threats."
   },
   {
     id: 2,
@@ -221,7 +221,8 @@ const products = [
     price: "₦2,899,999",
     images: [
       "eCmrceIpad11.jpg",
-      "eCmrceIpad11-1st.jpg"
+      "eCmrceIpad2nd.jpg",
+      "eCmrceIpad1st.jpg"
     ],
     description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
     description2: "Lightweight, durable, and built with superior grip for both style and function."
@@ -257,7 +258,7 @@ const products = [
     price: "₦40,000",
     images: [
       "eCmrceJBLheadset.jpg",
-      "eCmrceJBLheadset2nd.jpg"
+      "eCmrceJblHeadset2nd.jpg"
     ],
     description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
     description2: "Lightweight, durable, and built with superior grip for both style and function."
@@ -322,6 +323,139 @@ const products = [
       "eCmrceProbooklaptop1st.jpg",
       "eCmrceProbooklaptop2nd.jpg",
       "eCmrceProbooklaptop3rd.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 13,
+    name: "Kingskartel Kings-Kartel Stylish Zip Up Hoodie & Joggers Pant (Brown And Black)",
+    brand: "Kingskartel",
+    price: "₦18,550",
+    images: [
+      "eCf&S cloothes.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 14,
+    name: "Men's 2-in-1 Short Sleeved T-shirt And Pants Set - Black",
+    brand: "",
+    price: "₦9,000",
+    images: [
+      "ecF&S cloth2.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 15,
+    name: "GALUIN 2 Piece Men's Round Neck Short Sleeve Shirt & Shorts -Black",
+    brand: "GALUNI",
+    price: "₦11,500",
+    images: [
+      "ecF&S cloth3.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 16,
+    name: "Danami Pack Of 3 Plain Sleeveless Hooded T Shirt- Black White & Ash",
+    brand: "Danami",
+    price: "₦19,999",
+    images: [
+      "ecF&S coth4.jpg"
+    ],
+    // ecF&S cloth4.jpg
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 17,
+    name: "Dou-color Dou Color Fabric Thick T-shirt Ptriotic Men's Nigerian Flag Printed T-shirt - Black",
+    brand: "Dou-color",
+    price: "₦4,200",
+    images: [
+      "ecF&S cloth5.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 18,
+    name: "O'Carly Gluta Magic Ultra Whitens serum anti taches - Carrot Extract - 1 bottle",
+    brand: "O'Carly",
+    price: "₦7,000",
+    images: [
+      "ecF&S Gluta Magic.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 19,
+    name: "kojic White kojic Gluta Papaya Whitening Soap (With Arbutin)x2",
+    brand: "Kojic White",
+    price: "₦6,555",
+    images: [
+      "ecF&S kojic sop.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 20,
+    name: "Danami Pack Of 3 Plain Sleeveless Hooded T Shirt- Black White & Ash",
+    brand: "Danami",
+    price: "₦19,999",
+    images: [
+      "ecF&S cloth4.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 21,
+    name: "Nivea Cherry Blossom & Jojoba Oil Infused Body Lotion transforms dry skin into radiant, soft skin with a lovely Cherry Blossom scent.",
+    brand: "Nivea",
+    price: "₦15,999",
+    images: [
+      "ecF&S niveaCream.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 22,
+    name: "AlRehab Choco Musk Perfume 50ml.",
+    brand: "AlRehab",
+    price: "₦5,500",
+    images: [
+      "ecF&S perfume2.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 23,
+    name: "MOUSUF- Hand and body lotion ー Approx 1.53 fl.oz",
+    brand: "MOUSUF",
+    price: "₦7,700",
+    images: [
+      "ecF&S perfume.jpg"
+    ],
+    description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
+    description2: "Lightweight, durable, and built with superior grip for both style and function."
+  },
+  {
+    id: 24,
+    name: "Copaci 24kunisex Perfume 30ml",
+    brand: "Copci",
+    price: "₦3,050",
+    images: [
+      "ecF&S 24K perfume.jpg"
     ],
     description1: "Step into comfort and performance with ADIDAS WideWalk Sneakers. Designed for all-day wear.",
     description2: "Lightweight, durable, and built with superior grip for both style and function."
