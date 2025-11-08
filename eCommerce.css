@@ -80,7 +80,9 @@ body {
   margin: 0;
   padding-bottom: 70px;
 }
-
+.bi{
+  stroke-width: 2.5;
+}
 .header {
   background: #ff9900;
   color: white;
